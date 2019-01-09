@@ -1,0 +1,54 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+
+body, html {
+    height: 100%;
+  }
+  
+  .parallax {
+    
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+
+  .pic1{
+    background-image: url('images/waterfall.jpg');
+    height: 100%; 
+}
+.pic2{
+    background-image: url('images/eyeball.jpg');
+    height: 100%;
+}
+.pic3{
+    background-image: url('images/chain.jpg');
+    height: 100%;
+}
+.pic4{
+    background-image: url('images/forest.jpg');
+    height: 100%; 
+}
+.pic5{
+    background-image: url('images/reo\ and\ ish.jpg');
+    height: 100%;
+}
+
+
